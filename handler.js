@@ -1,6 +1,6 @@
 const fs = require('fs')
 const { createSticker } = require('./sticker')
-const { prefix } = require('../config')
+const { prefix } = require('./config')
 
 async function handler(sock, msg) {
   const text = msg.message?.conversation || ''
