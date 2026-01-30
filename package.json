@@ -1,0 +1,16 @@
+{
+  "name": "wa-sticker-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot sticker menggunakan Baileys",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "you",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "pino": "^8.0.0"
+  }
+}
